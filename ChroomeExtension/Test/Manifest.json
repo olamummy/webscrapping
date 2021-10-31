@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "mytypings",
+  "description": "Extension for mytypings.com",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "browser_action": {
+    "default_icon": "logo.jpg"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
